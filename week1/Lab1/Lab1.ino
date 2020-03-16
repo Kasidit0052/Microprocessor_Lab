@@ -1,7 +1,7 @@
 void setup() 
 {
- DDRD=0xFF;
- DDRB=0x03;
+DDRD=0xFF;
+DDRB=0x03;
 }
 
 void loop() 
