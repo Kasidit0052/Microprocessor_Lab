@@ -42,8 +42,8 @@ void loop()
       
       if(buff[1] != 'B')
       {
-          brightness=0.00;
-      Serial.println("Pattern Error");
+        brightness=0.00;
+        Serial.println("Pattern Error");
       }
       
       if(buff[0]=='1'){analogWrite(LED_PIN,int(brightness*2.54));}
